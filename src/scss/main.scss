@@ -3,11 +3,12 @@
 @import "_variables";
 @import "modules/hello.scss";
 
-body {
-  background: $wtf;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+div {
+  font-family: "Roboto";
+  max-width: 80%;
+  margin: 20px auto;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
+
+
